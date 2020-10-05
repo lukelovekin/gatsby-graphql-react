@@ -1,10 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Full-Stack Gatsby Demo',
+    author: 'Luke Lovekin'
+  },
+  plugins: [
+    'gatsby-plugin-sass'
+  ],
 }
